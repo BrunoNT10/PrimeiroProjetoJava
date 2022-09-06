@@ -1,0 +1,4 @@
+Para fazer a declaração das variáveis na linguagem JAVA é bastante simples,basta colocar o tipo dela, podendo ser do tipo primitivo 
+(como int, float, boolean) como também de qualquer outra classe/interface, sendo ela nativa do JAVA (como String, ArrayList). E 
+após isso colocamos um nome para a variável, assim ela só poderá receber os valores do seu tipo definido. Também é possível 
+especificar o modificador de acesso da variável, ao declara-la dentro de uma classe (como private, public).

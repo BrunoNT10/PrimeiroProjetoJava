@@ -1,0 +1,13 @@
+A estrutura "if" é usada para impor uma ou mais condições que deverão ser satisfeitas para a execução de uma instrução. A condição 
+sempre irá estar entre parênteses após a palavra "if", e ela deve ser uma expressão booleana que resulta um valor verdadeiro ou falso. 
+Caso o resultado seja verdadeiro a instrução será executada, mas caso seja falso, a execução irá ignorar as instruções dentro
+do "if". 
+
+Já a estrutura "else" será executada somente se as condições "if" acima dela derem falsa. Após escrita a palavra "else" é colocado 
+chaves e dentro deles colocamos uma instrução que não precisa necessáriamente de uma condição para ser executada, mas caso o 
+"if" acima dela seja verdadeiro, a execução irá ignorar as instruções dentro do "else".
+
+A estrutura "switch" é uma forma simples de definir diversos desvios no código a partir de uma única variável. Após escrita a palavra
+"switch" colocamos um parêntese com uma variável com diversos valores possíveis e sendo necessário um tratamento específico para cada 
+um deles, podendo ter diversos deles, assim "case1", "case2", "case3" etc. E a palavra break é utilizada para promover um desvio da 
+execução para a linha posterior ao final de seu bloco, geralmente usado como a últma instrução de cada "case".
