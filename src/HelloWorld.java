@@ -12,10 +12,16 @@ public class HelloWorld {
 		{
 			System.out.println("Valor invalido de temperatura da GPU!");
 		}		
+		else if(temp > 100)
+		{
+			System.out.println("CUIDADO! A temperatura da GPU esta extremamente elevada!");
+			
+		}
 		else if(temp > 50)
 		{
-			System.out.println("CUIDADO, temperatura da GPU elevada!");
+			System.out.println("CUIDADO! A temperatura da GPU elevada!");
 		}
+		
 		else
 		{
 			System.out.println("A temperatura da GPU esta normal!");			
