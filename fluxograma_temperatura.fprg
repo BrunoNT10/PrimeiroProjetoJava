@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Alunos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-06 03:59:11 "/>
+        <attribute name="created" value="QWx1bm9zO0xBQi1HQU1FUy0xNzsyMDIyLTA5LTA2OyIwMzo0MTozMCAiOzI1Nzk="/>
+        <attribute name="edited" value="QWx1bm9zO0xBQi1HQU1FUy0xNzsyMDIyLTA5LTA2OyIwMzo1OToxMSAiOzY7MjcwMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Temperatura" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o valor da temperatura: &quot;" newline="True"/>
+            <input variable="Temperatura"/>
+            <if expression="Temperatura &lt; 0">
+                <then>
+                    <output expression="&quot;Valor de temperatura inv&#225;lido.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="Temperatura &gt; 50 &amp;&amp; Temperatura &lt; 100">
+                        <then>
+                            <output expression="&quot;Temperatura do GPU elevada. &quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="Temperatura &gt; 100">
+                                <then>
+                                    <output expression="&quot;CUIDADO! Temperatura do GPU acima do permitido. &quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;Temperatura da GPU normal.&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
