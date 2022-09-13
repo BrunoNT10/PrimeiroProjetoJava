@@ -1,0 +1,27 @@
+Os loops podem executar um bloco de código desde que uma condição especificada seja
+alcançada. Eles são úteis pois economizam tempo, reduzem erros e tornam o código mais 
+legível. O while é basicamente uma repetição infinita desde que a condiçõa primaria 
+definida seja verdadeira. Para implementar eles no código, escrevemos "while" abrimos
+parênteses e dentro dele colocamos a condição. Exemplo:
+/////////////////////////////////////// 
+while (condição) {
+  // bloco de código a ser executado
+}
+///////////////////////////////////////
+
+
+Mas caso você saiba quantas vezes deseja percorrer um bloco de código, ou seja quando 
+você souber quantas vezes o código vai repetir, use o "for" ao em vez do "while". Mas 
+para o "for" ser executado ele precisa obedecer a 3 instruções: a primeira é executada
+apenas uma vez antes da execução do bloco de código; a segunda defini a condição para 
+que ocorra a execução do código; e por ultimo, a execução da terceira vai ocorrer
+todas as vezes após executada. Exemplo:
+////////////////////////////////
+for (int i = 0; i < 5; i++) {
+  System.out.println(i);
+}
+///////////////////////////////
+
+* int i = 0 -> instrução 1;
+** i < 5 -> instrução 2;
+*** i++ -> instrução 3.

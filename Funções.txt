@@ -1,0 +1,17 @@
+As funções no JAVA são chamadas de métodos e você pode chamá-las através do método main.
+Exemplo:
+public class Main {
+  static void myMethod() {
+    System.out.println("I just got executed!");
+  }
+
+  public static void main(String[] args) {
+    myMethod();
+  }
+}
+
+// Outputs "I just got executed!
+
+Caso você queira ter ou receber algum parâmetro, basta retirar de seu método a classe
+"void" (que deixa seu método sem parâmetro com retorno vazio). Após isso, basta especificar
+o seu parâmetro (int, char, etc...) e colocar um return dentro de seu método.
